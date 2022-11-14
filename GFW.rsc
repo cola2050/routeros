@@ -255,4 +255,3 @@ add comment=GFW forward-to=198.18.0.2 regexp="github-production-release-asset-[0
 add comment=GFW forward-to=198.18.0.2 regexp="^epicgames-download\\d\\.akamaized\\.net\$" type=FWD
 add comment=GFW forward-to=198.18.0.2 regexp="^ewcdn[0-9]{2}\\.nowe\\.com\$" type=FWD
 add comment=GFW forward-to=198.18.0.2 regexp="^hses[1-7]\?\\.akamaized\\.net\$" type=FWD
-/ip dns cache flush
