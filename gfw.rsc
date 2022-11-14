@@ -1,4 +1,4 @@
-/ip dns static remove [/ip dns static find type=FWD ]
+/ip dns static remove [/ip dns static find comment=GFW ]
 /ip dns static
 add comment=GFW forward-to=198.18.0.2 name=abematv.akamaized.net type=FWD
 add comment=GFW forward-to=198.18.0.2 name=amp.akamaized.net type=FWD
