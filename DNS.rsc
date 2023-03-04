@@ -1,13 +1,4 @@
 /ip dns static
-add comment=ubuntu forward-to=198.18.0.2 regexp=\
-    "(hk|us)\\.archive\\.ubuntu\\.com\$" type=FWD
-add comment=Apple forward-to=198.18.0.2 regexp=\
-    ".*-courier\\.push\\.apple\\.com\$" type=FWD
-add comment=Apple forward-to=198.18.0.2 regexp=\
-    ".*(\\.)\?(itunes|music|ls|c|apps|media|smoot)\\.apple\\.(com|news)\$" \
-    ttl=1w type=FWD
-add regexp="(ocsp|ocsp2|oscp|ocsp-lb)\\.(apple|digicert).*\\.com" ttl=1w \
-    type=NXDOMAIN comment=Apple
 add comment=MikroTik forward-to=198.18.0.2 regexp=\
     ".*(\\.)\?(mikrotik)\\.com\$" type=FWD
 add comment=County forward-to=198.18.0.2 regexp=".*(\\.)\?(.*|\\.)\?\\.(\
