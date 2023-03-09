@@ -1,4 +1,6 @@
 /ip dns static
+add comment=ubuntu forward-to=198.18.0.2 regexp=\
+    "(hk|us)\\.archive\\.ubuntu\\.com\$" type=FWD
 add comment=MikroTik forward-to=198.18.0.2 regexp=\
     ".*(\\.)\?(mikrotik)\\.com\$" type=FWD
 add comment=County forward-to=198.18.0.2 regexp=".*(\\.)\?(.*|\\.)\?\\.(\
@@ -15,6 +17,11 @@ add comment=KEYWORD forward-to=198.18.0.2 regexp=\
     ".*(\\.)\?(dropbox|hbo).*" type=FWD
 add comment="Public CDN" forward-to=198.18.0.2 regexp=\
     ".*(\\.)\?(aa|akamai).*" type=FWD
+add comment=Apple forward-to=198.18.0.2 regexp=\
+    ".*-courier\\.push\\.apple\\.com\$" type=FWD
+add comment=Apple forward-to=198.18.0.2 regexp=\
+    ".*(\\.)\?(itunes|music|ls|c|apps|media|smoot)\\.apple\\.(com|news)\$" \
+    ttl=1w type=FWD
 add comment="Apple Services" forward-to=198.18.0.2 regexp=\
     ".*\\.(icloud|me)\\.com\$" type=FWD
 add comment="Apple Services1" forward-to=198.18.0.2 regexp=".*(\\.)\?(ap\
