@@ -1,3 +1,4 @@
+:global dnsserver
 /ip dns static
 add comment=ubuntu forward-to=$dnsserver regexp=\
     "(hk|us)\\.archive\\.ubuntu\\.com\$" type=FWD
