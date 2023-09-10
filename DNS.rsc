@@ -33,6 +33,9 @@ add comment="Apple Services2" forward-to=$dnsserver regexp=\
     FWD
 add comment="Apple Services DNS" forward-to=$dnsserver regexp=\
     ".*((-)\?apple(-)\?|icloud).*(com)\?akadns.net\$" type=FWD
+add comment="Apple OCSP" forward-to=$dnsserver regexp=\
+    "(ocsp|ocsp2|oscp|ocsp-lb)\\.(apple|digicert).*\\.com" \
+    ttl=1w type=FWD
 add comment=Amazon forward-to=$dnsserver regexp=\
     ".*(\\.)\?(amazon|amazonaws|kindle|primevideo).*\\.com\$" type=FWD
 add comment=Quora forward-to=$dnsserver regexp=".*(\\.)\?quora\\.com\$" \
