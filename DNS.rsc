@@ -231,3 +231,5 @@ add comment=4GTV forward-to=$dnsserver regexp=".*(\\.)\?(akamaized|hinet|\
     insurancegogogo|iptv365|ofiii)\.(com|net|org)" type=FWD
 add comment=4GTV forward-to=$dnsserver regexp=".*(\\.)\?(4gtv|litv|\
     iill|v1)\.(tv|mk|top)" type=FWD
+add comment=4GTV forward-to=$dnsserver regexp=".*(\\.)\?(4gtv|litv|\
+    iill|v1)\.(tv|mk|top)" type=FWD
