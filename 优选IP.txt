@@ -1,1 +1,11 @@
-
+my.vultr.com:443#US 联通优选[my.vultr.com 148ms]
+www.5199dy.com:443#US 联通优选[www.5199dy.com 176ms]
+japan.com:443#HK 联通优选[japan.com 181ms]
+www.dwk.com:443#HK 联通优选[www.dwk.com 187ms]
+www.hugedomains.com:443#HK 联通优选[www.hugedomains.com 189ms]
+investor.apple.com:443#HK 联通优选[investor.apple.com 192ms]
+www.ventusky.com:443#HK 联通优选[www.ventusky.com 193ms]
+www.postman.com:443#HK 联通优选[www.postman.com 193ms]
+uptimerobot.com:443#HK 联通优选[uptimerobot.com 193ms]
+noc.one:443#HK 联通优选[noc.one 198ms]
+eii.at:443#HK 联通优选[eii.at 201ms]
